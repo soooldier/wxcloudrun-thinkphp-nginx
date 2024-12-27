@@ -43,7 +43,7 @@ class Index
             if ($data == null) {
                 $count = 0;
             }else {
-                $count = $data["count"];
+                $count = $data["count"]+10000;
             }
             $res = [
                 "code" => 0,
